@@ -1,6 +1,10 @@
-h1 
-{
-    color: #001a66;
+h1 { 
+    color: rgb(102, 255, 140);
+    width: 200px;
+   }
+
+h2 {
+    color: #414a4c;
     width: 200px;
 }
 
@@ -9,6 +13,14 @@ p {
     font-size: 120%;
 }
 
-ol{
-    list-style-type: upper-roman;
+em {
+    font-size: 120%;
+}
+
+img {
+    width: 50%;
+}
+
+ul {
+    list-style-type: circle;
 }
