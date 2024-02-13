@@ -1,20 +1,36 @@
-h1 { 
-    color: rgb(102, 255, 140);
-    width: 200px;
-   }
+body {
+    color:blueviolet;
+}
 
-h2 {
-    color: #414a4c;
-    width: 200px;
+p.red {
+    color:red;
+    font-size: 1em;
+}
+
+h1.main_title {
+    text-decoration: underline;
+    color:aquamarine;
+}
+
+h1, h2, h3 {
+    color: blue;
+    font-style: italic;
+}
+
+a strong{
+    font-size: 150%;
 }
 
 p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 120%;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
 }
 
 em {
     font-size: 120%;
+    font-style: normal;
+    font-weight: bold;
 }
 
 img {
